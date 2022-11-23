@@ -11,10 +11,10 @@ app.use(bodyParser.json());
 
 // MySql
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'rootpass',
-  database: 'node20_mysql'
+  host: '193.84.177.212',
+  user: 'q237839_noticdelu',
+  password: '@35115415',
+  database: 'q237839_noticdelu'
 });
 
 // Route

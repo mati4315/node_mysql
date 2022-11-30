@@ -1,6 +1,8 @@
 const express = require('express');
 const mysql = require('mysql');
 
+
+console.log(express)
 const bodyParser = require('body-parser');
 
 

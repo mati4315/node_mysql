@@ -3,7 +3,6 @@ const mysql = require('mysql');
 
 const bodyParser = require('body-parser');
 
-const PORT = process.env.PORT || 3050;
 
 const app = express();
 
@@ -91,4 +90,4 @@ connection.connect(error => {
   console.log('Database server running!');
 });
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
